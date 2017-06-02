@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context="app.android.test.june2nd.MainActivity">
+
+    <TextView
+        android:id="@+id/titleMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="MAIN"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/toTestSoundService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleMain"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:text="배경 음악 서비스"
+        android:textSize="15dp"/>
+
+
+</RelativeLayout>
